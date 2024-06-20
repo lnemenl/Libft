@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rkhakimu <rkhakimu@student.hive.fi>        +#+  +:+       +#+         #
+#    By: rkhakimu <rkhakimu@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/30 12:45:23 by rkhakimu          #+#    #+#              #
-#    Updated: 2024/05/02 23:40:37 by rkhakimu         ###   ########.fr        #
+#    Updated: 2024/06/20 13:58:05 by rkhakimu         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,19 @@ SRC = ft_isascii.c \
 	  ft_putchar_fd.c \
 	  ft_putstr_fd.c \
 	  ft_putendl_fd.c \
-	  ft_putnbr_fd.c
+	  ft_putnbr_fd.c \
+	  ft_printchar.c \
+	  ft_printf.c \
+	  ft_printhex.c \
+	  ft_printhex_ptr.c \
+	  ft_printnbr.c \
+	  ft_printstr.c \
+	  ft_printunbr.c \
+	  get_next_line_bonus.c \
+	  get_next_line.c \
+	  get_next_line_utils.c \
+	  get_next_line_utils_bonus.c \
+
 
 SRC_bonus = ft_lstnew_bonus.c \
 	ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
